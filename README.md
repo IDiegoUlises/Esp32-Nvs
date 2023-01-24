@@ -1,7 +1,7 @@
 # Esp32-Nvs
 
-int led = 13;
-int boton = 2;
+int led = 26;
+int boton = 27;
 
 boolean pulsado = false;
 
