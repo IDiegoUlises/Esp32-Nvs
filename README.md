@@ -23,7 +23,8 @@ void loop()
   //Obtiene el valor en la memoria variable y si no existe es falso
   pulsado = preferences.getBool("variable", false);
 
-  digitalWrite(led, save);
+  digitalWrite(led, pulsado);
+  delay(500);
 
   //Lee el boton
   int estado = digitalRead(boton);
