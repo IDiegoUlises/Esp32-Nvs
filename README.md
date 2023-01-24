@@ -1,5 +1,7 @@
 # Esp32-Nvs
 
+#include <Preferences.h>
+
 int led = 26;
 int boton = 27;
 
