@@ -1,5 +1,9 @@
 # Esp32-Nvs
 
+Declara el objeto
+
+```Preferences preferences;```
+
 ```c++
 #include <Preferences.h>
 
