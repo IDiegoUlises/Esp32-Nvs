@@ -5,15 +5,19 @@ Declara el objeto
 ```Preferences preferences;```
 
 Abre preferencias con el nombre app
+
 ```preferences.begin("app", false);```
 
 Guarda el estado en la memoria con nombre variable
+
 ```preferences.putBool("variable", true);```
 
 Para obtener la informacion de la memoria variable en caso de no existir por defecto sera falso
+
 ```int pulsado = preferences.getBool("variable", false);```
 
 Para cerrar las preferencias
+
 ```preferences.end();```
 
 ```c++
