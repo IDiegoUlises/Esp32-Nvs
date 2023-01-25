@@ -127,64 +127,64 @@ void loop() {
 </tr>
   
   <tr>
-  <td>Char</td>
-  <td>int8_t</td>
-  <td>1</td>
+  <td>Short</td>
+  <td>int16_t</td>
+  <td>2</td>
 </tr>
   <tr>
-  <td>Char</td>
-  <td>int8_t</td>
-  <td>1</td>
+  <td>UShort</td>
+  <td>uint16_t</td>
+  <td>2</td>
 </tr>
   <tr>
-  <td>Char</td>
-  <td>int8_t</td>
-  <td>1</td>
+  <td>Int</td>
+  <td>int32_t</td>
+  <td>4</td>
 </tr>
   <tr>
-  <td>Char</td>
-  <td>int8_t</td>
-  <td>1</td>
+  <td>UInt</td>
+  <td>uint32_t</td>
+  <td>4</td>
 </tr>
   <tr>
-  <td>Char</td>
-  <td>int8_t</td>
-  <td>1</td>
+  <td>Long</td>
+  <td>int32_t</td>
+  <td>4</td>
 </tr>
   <tr>
-  <td>Char</td>
-  <td>int8_t</td>
-  <td>1</td>
+  <td>ULong</td>
+  <td>uint32_t</td>
+  <td>4</td>
 </tr>
   <tr>
-  <td>Char</td>
-  <td>int8_t</td>
-  <td>1</td>
+  <td>Long64</td>
+  <td>int64_t</td>
+  <td>8</td>
 </tr>
   <tr>
-  <td>Char</td>
-  <td>int8_t</td>
-  <td>1</td>
+  <td>ULong64</td>
+  <td>uint64_t</td>
+  <td>8</td>
 </tr>
   <tr>
-  <td>Char</td>
-  <td>int8_t</td>
-  <td>1</td>
+  <td>Float</td>
+  <td>float_t</td>
+  <td>8</td>
 </tr>
   <tr>
-  <td>Char</td>
-  <td>int8_t</td>
-  <td>1</td>
+  <td>Double</td>
+  <td>double_t</td>
+  <td>8</td>
 </tr>
   <tr>
-  <td>Char</td>
-  <td>int8_t</td>
-  <td>1</td>
+  <td>String</td>
+  <td>String</td>
+  <td>Variable</td>
 </tr>
   <tr>
-  <td>Char</td>
-  <td>int8_t</td>
-  <td>1</td>
+  <td>Bytes</td>
+  <td>uint8_t</td>
+  <td>Variable</td>
 </tr>
 </table>
 
