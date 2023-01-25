@@ -45,7 +45,7 @@ void setup()
   pinMode(led, OUTPUT);
   pinMode(boton, INPUT);
 
-  //Inicia el espacio de memoria y el segundo valor debe ser falso
+  //Inicia el espacio de nombres y el segundo valor debe ser falso
   preferences.begin("app", false);
 }
 
