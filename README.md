@@ -115,9 +115,9 @@ void loop() {
 </tr>
 
 <tr>
-  <td>HTML</td>
-  <td>20</td>
-  <td>16:00 - 20:00</td>
+  <td>Char</td>
+  <td>int8_t</td>
+  <td>1</td>
 </tr>
 
 <tr>
