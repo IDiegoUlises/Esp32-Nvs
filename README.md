@@ -96,7 +96,7 @@ void loop() {
 
 
 <html>
-<head><title>Ejemplo de tabla sencilla</title></head>
+
 <body>
 
 <h1>Listado de cursos</h1>
@@ -129,8 +129,6 @@ void loop() {
 
 </body>
 </html>
-
-    <td>S 16 km/h</td>
 
   </tr>
 
