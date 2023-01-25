@@ -25,6 +25,7 @@ Para cerrar las preferencias
 preferences.end();
 ```
 
+### Codigo
 ```c++
 #include <Preferences.h>
 
