@@ -1,6 +1,6 @@
 # Esp32 Nvs
 
-### Como se define
+### Definicion
 Para declarar el objeto
 ```c++
 Preferences preferences;
