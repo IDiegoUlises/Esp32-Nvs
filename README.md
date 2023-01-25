@@ -95,43 +95,40 @@ void loop() {
 ``` 
 
 
-<table class="default">
+<html>
+<head><title>Ejemplo de tabla sencilla</title></head>
+<body>
 
-  <tr>
+<h1>Listado de cursos</h1>
 
-    <th>Hoy</th>
+<table>
+<tr>
+  <td><strong>Curso</strong></td>
+  <td><strong>Horas</strong></td>
+  <td><strong>Horario</strong></td>
+</tr>
 
-    <th>Mañana</th>
+<tr>
+  <td>CSS</td>
+  <td>20</td>
+  <td>16:00 - 20:00</td>
+</tr>
 
-    <th>Viernes</th>
+<tr>
+  <td>HTML</td>
+  <td>20</td>
+  <td>16:00 - 20:00</td>
+</tr>
 
-  </tr>
+<tr>
+  <td>Dreamweaver</td>
+  <td>60</td>
+  <td>16:00 - 20:00</td>
+</tr>
+</table>
 
-  <tr>
-
-    <td>Soleado</td>
-
-    <td>Mayormente soleado</td>
-
-    <td>Parcialmente nublado</td>
-
-  </tr>
-
-  <tr>
-
-    <td>19°C</td>
-
-    <td>17°C</td>
-
-    <td>12°C</td>
-
-  </tr>
-
-  <tr>
-
-    <td>E 13 km/h</td>
-
-    <td>E 11 km/h</td>
+</body>
+</html>
 
     <td>S 16 km/h</td>
 
