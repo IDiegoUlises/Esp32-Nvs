@@ -121,9 +121,9 @@ void loop() {
 </tr>
 
 <tr>
-  <td>Dreamweaver</td>
-  <td>60</td>
-  <td>16:00 - 20:00</td>
+  <td>UChar</td>
+  <td>uint8_t</td>
+  <td>1</td>
 </tr>
 </table>
 
