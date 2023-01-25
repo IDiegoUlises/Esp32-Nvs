@@ -105,13 +105,13 @@ void loop() {
 <tr>
   <td><strong>Tipo de preferencias</strong></td>
   <td><strong>Tipo de dato</strong></td>
-  <td><strong>Tamaño en bytes</strong></td>
+  <td><strong>Tamaño(bytes)</strong></td>
 </tr>
 
 <tr>
-  <td>CSS</td>
-  <td>20</td>
-  <td>16:00 - 20:00</td>
+  <td>Bool</td>
+  <td>bool</td>
+  <td>1</td>
 </tr>
 
 <tr>
