@@ -45,7 +45,7 @@ void setup()
   pinMode(led, OUTPUT);
   pinMode(boton, INPUT);
 
-  //Inicia el espacio de nombres y el segundo valor debe ser falso
+  //Inicia el espacio de memoria y el segundo valor debe ser falso
   preferences.begin("app", false);
 }
 
@@ -53,7 +53,7 @@ void loop()
 {
   //Obtiene el valor en la memoria variable y si no existe es falso
   pulsado = preferences.getBool("variable", false);
- 
+
   //Prende o apaga el led que dependera del estado de la memoria
   digitalWrite(led, pulsado);
   //delay(500);
@@ -69,13 +69,15 @@ void loop()
 
     //Guarda en la memoria la variable el estado de pulsado
     preferences.putBool("variable", pulsado);
-    
-    //Termina las preferencias
-    references.end();
 
     //Hace un retardo de un segundo importante ya que esta memoria tiene un limite de escritura
-    delay(1000); 
+    delay(1000);
   }
+
+  //Termina las preferencias
+  //preferences.end(); //Como queda en un bucle while como el loop
+                       //debe eliminarse para que nunca se cierre la conexion
+ 
 }
 ```
 
