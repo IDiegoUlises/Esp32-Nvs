@@ -1,5 +1,6 @@
 # Esp32-Nvs
 
+```c++
 #include <Preferences.h>
 
 int led = 26;
@@ -39,8 +40,11 @@ void loop()
     delay(1000); //Espera 1 segundo
   }
 }
+```
 
 ### Codigo para eliminar todos los espacio de nombre dentro del esp32
+
+```c++
 #include <nvs_flash.h>
 
 void setup() {
@@ -51,3 +55,5 @@ void setup() {
 
 void loop() {
 }
+
+``` 
