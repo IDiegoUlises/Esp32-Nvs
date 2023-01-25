@@ -125,6 +125,67 @@ void loop() {
   <td>uint8_t</td>
   <td>1</td>
 </tr>
+  
+  <tr>
+  <td>Char</td>
+  <td>int8_t</td>
+  <td>1</td>
+</tr>
+  <tr>
+  <td>Char</td>
+  <td>int8_t</td>
+  <td>1</td>
+</tr>
+  <tr>
+  <td>Char</td>
+  <td>int8_t</td>
+  <td>1</td>
+</tr>
+  <tr>
+  <td>Char</td>
+  <td>int8_t</td>
+  <td>1</td>
+</tr>
+  <tr>
+  <td>Char</td>
+  <td>int8_t</td>
+  <td>1</td>
+</tr>
+  <tr>
+  <td>Char</td>
+  <td>int8_t</td>
+  <td>1</td>
+</tr>
+  <tr>
+  <td>Char</td>
+  <td>int8_t</td>
+  <td>1</td>
+</tr>
+  <tr>
+  <td>Char</td>
+  <td>int8_t</td>
+  <td>1</td>
+</tr>
+  <tr>
+  <td>Char</td>
+  <td>int8_t</td>
+  <td>1</td>
+</tr>
+  <tr>
+  <td>Char</td>
+  <td>int8_t</td>
+  <td>1</td>
+</tr>
+  <tr>
+  <td>Char</td>
+  <td>int8_t</td>
+  <td>1</td>
+</tr>
+  <tr>
+  <td>Char</td>
+  <td>int8_t</td>
+  <td>1</td>
+</tr>
 </table>
 
 </body>
