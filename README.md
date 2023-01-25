@@ -1,7 +1,6 @@
-# Esp32-Nvs
+# Esp32 Nvs
 
-Declara el objeto
-
+Para declarar el objeto
 ```c++
 Preferences preferences;
 ```
