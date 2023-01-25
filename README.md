@@ -29,42 +29,52 @@ preferences.end();
 ```c++
 #include <Preferences.h>
 
+//Declara los puertos que usara el led y el boton
 int led = 26;
 int boton = 27;
 
+//Crea una variable para saber el estado del boton
 boolean pulsado = false;
 
+//Declara el objeto preferencias
 Preferences preferences;
 
 void setup()
 {
+  //Configuracion como entradas y salidas
   pinMode(led, OUTPUT);
   pinMode(boton, INPUT);
 
   //Inicia el espacio de memoria y el segundo valor debe ser falso
-  preferences.begin("my-app", false);
+  preferences.begin("app", false);
 }
 
 void loop()
 {
   //Obtiene el valor en la memoria variable y si no existe es falso
   pulsado = preferences.getBool("variable", false);
-
+ 
+  //Prende o apaga el led que dependera del estado de la memoria
   digitalWrite(led, pulsado);
-  delay(500);
+  //delay(500);
 
-  //Lee el boton
+  //Lee el estado del boton
   int estado = digitalRead(boton);
 
+  //Realiza una comparacion para saber si el boton fue presionado
   if (estado == HIGH)
   {
-    //Cambia el estado actual
+    //Cambia el estado contrario
     pulsado = !pulsado;
-    
+
     //Guarda en la memoria la variable el estado de pulsado
     preferences.putBool("variable", pulsado);
+    
+    //Termina las preferencias
     references.end();
-    delay(1000); //Espera 1 segundo
+
+    //Hace un retardo de un segundo importante ya que esta memoria tiene un limite de escritura
+    delay(1000); 
   }
 }
 ```
