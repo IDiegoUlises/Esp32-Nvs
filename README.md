@@ -103,9 +103,9 @@ void loop() {
 
 <table>
 <tr>
-  <td><strong>Curso</strong></td>
-  <td><strong>Horas</strong></td>
-  <td><strong>Horario</strong></td>
+  <td><strong>Tipo de preferencias</strong></td>
+  <td><strong>Tipo de dato</strong></td>
+  <td><strong>Tamaño en bytes</strong></td>
 </tr>
 
 <tr>
