@@ -99,7 +99,7 @@ void loop() {
 
 <body>
 
-<h1>Listado de cursos</h1>
+<h1>Tipos de preferencias</h1>
 
 <table>
 <tr>
