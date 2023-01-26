@@ -187,7 +187,7 @@ void loop()
 
 * Estos tipos de preferencias son todos los tipos de datos que se pueden guardar en la memoria nvs
 
-### Codigo para eliminar todos los espacio de nombre para limpiar la memoria nvs
+### Codigo para eliminar todos los espacios de nombre para limpiar la memoria nvs
 
 ```c++
 #include <nvs_flash.h>
