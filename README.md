@@ -5,7 +5,7 @@ Para declarar el objeto
 Preferences preferences;
 ```
 
-Abre preferencias con el nombre app. El valor ```false``` es para lectura y escritua mientras que true es solo para lectura
+Abre preferencias con el nombre app. El valor ```false``` es para lectura y escritura mientras que true es solo para lectura
 ```c++
 preferences.begin("app", false);
 ```
@@ -45,7 +45,7 @@ void setup()
   pinMode(led, OUTPUT);
   pinMode(boton, INPUT);
 
-  //Inicia el espacio de memoria y el segundo valor debe ser falso
+  //Inicia el espacio de memoria y el segundo valor debe ser false para que sea de lectura y escritura
   preferences.begin("app", false);
 }
 
