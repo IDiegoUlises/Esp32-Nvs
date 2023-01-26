@@ -30,6 +30,8 @@ Para cerrar las preferencias
 preferences.end();
 ```
 
+### Codigo del sketch
+
 ```c++
 #include <Preferences.h>
 
