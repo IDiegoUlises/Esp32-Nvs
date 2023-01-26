@@ -1,5 +1,7 @@
 # Esp32 Nvs
 
+![](https://github.com/IDiegoUlises/Esp32-Nvs/blob/main/Images/Esp32-Nvs.gif)
+
 Para declarar el objeto
 ```c++
 Preferences preferences;
