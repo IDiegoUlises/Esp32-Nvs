@@ -10,7 +10,7 @@ Abre preferencias con el nombre app. El valor ```false``` es para lectura y escr
 preferences.begin("app", false);
 ```
 
-Guarda el estado en la memoria con nombre variable
+Guarda el valor verdadero en la memoria nvs con el nombre variable
 ```c++
 preferences.putBool("variable", true);
 ```
