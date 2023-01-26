@@ -5,7 +5,7 @@ Para declarar el objeto
 Preferences preferences;
 ```
 
-Abre preferencias con el nombre app
+Abre preferencias con el nombre app. El valor ```false``` es para lectura y escritua mientras que true es solo para lectura
 ```c++
 preferences.begin("app", false);
 ```
