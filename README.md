@@ -1,6 +1,9 @@
 # Esp32 Nvs
 
 ![](https://github.com/IDiegoUlises/Esp32-Nvs/blob/main/Images/Esp32-Nvs.gif)
+* Guarda el estado del boton en la memoria nvs y luego realiza una lectura desde la memoria
+
+### Codigo
 
 Para declarar el objeto
 ```c++
@@ -27,7 +30,6 @@ Para cerrar las preferencias
 preferences.end();
 ```
 
-### Codigo
 ```c++
 #include <Preferences.h>
 
