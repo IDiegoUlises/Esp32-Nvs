@@ -185,6 +185,8 @@ void loop()
 
 </table>
 
+* Estas datos son todos los tipos de datos que se pueden guardar en la memoria nvs
+
 ### Codigo para eliminar todos los espacio de nombre para limpiar la memoria nvs
 
 ```c++
