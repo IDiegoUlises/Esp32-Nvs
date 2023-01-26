@@ -89,13 +89,18 @@ void loop()
 ```c++
 #include <nvs_flash.h>
 
-void setup() {
-  nvs_flash_erase(); // erase the NVS partition and...
-  nvs_flash_init(); // initialize the NVS partition.
-  while(true);
+void setup() 
+{
+  //Borra la particion NVS
+  nvs_flash_erase();
+
+  //inicializa la partición NVS
+  nvs_flash_init();
 }
 
-void loop() {
+void loop() 
+{
+
 }
 ``` 
 
