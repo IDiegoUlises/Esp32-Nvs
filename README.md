@@ -85,28 +85,6 @@ void loop()
  
 }
 ```
-
-### Codigo para eliminar todos los espacio de nombre dentro del esp32
-
-```c++
-#include <nvs_flash.h>
-
-void setup() 
-{
-  //Borra la particion NVS
-  nvs_flash_erase();
-
-  //inicializa la partición NVS
-  nvs_flash_init();
-}
-
-void loop() 
-{
-
-}
-``` 
-
-
 <html>
 
 <body>
@@ -206,3 +184,23 @@ void loop()
   </tr>
 
 </table>
+
+### Codigo para eliminar todos los espacio de nombre para limpiar la memoria nvs
+
+```c++
+#include <nvs_flash.h>
+
+void setup() 
+{
+  //Borra la particion NVS
+  nvs_flash_erase();
+
+  //inicializa la partición NVS
+  nvs_flash_init();
+}
+
+void loop() 
+{
+
+}
+``` 
