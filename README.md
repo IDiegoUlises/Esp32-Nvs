@@ -56,7 +56,6 @@ void loop()
 
   //Prende o apaga el led que dependera del estado de la memoria
   digitalWrite(led, pulsado);
-  //delay(500);
 
   //Lee el estado del boton
   int estado = digitalRead(boton);
@@ -75,8 +74,8 @@ void loop()
   }
 
   //Termina las preferencias
-  //preferences.end(); //Como queda en un bucle while como el loop
-                       //debe eliminarse para que nunca se cierre la conexion
+  //preferences.end(); //Como siempre se esta realizando una lectura y escritura en el bucle loop()
+                       //no se debe terminar las preferencia porque siempre se esta utilizando  
  
 }
 ```
