@@ -2,7 +2,7 @@
 
 ![](https://github.com/IDiegoUlises/Esp32-Nvs/blob/main/Images/Esp32-Nvs.gif)
 * Guarda el estado del boton en la memoria flash y luego realiza una lectura desde la memoria
-* Es utilizado para almacenar pequeños datos
+* Es utilizado para almacenar datos pequeños
 
 ### Codigo
 
